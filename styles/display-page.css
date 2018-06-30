@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0;
+}
+span {
+    font-size: 12px;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.gray-box, .black-box, .orange-box{
+    display: inline-block;
+    height: 300px;
+    width: 33%;
+    border: 1px solid black;
+}
+
+.green-box, .blue-box {
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.gray-box {
+    background-color: gray;
+}
+
+.black-box {
+    background-color: black;
+}
+
+.orange-box {
+    background-color: orange;
+}
